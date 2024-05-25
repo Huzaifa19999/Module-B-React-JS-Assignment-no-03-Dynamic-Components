@@ -42,7 +42,7 @@ function App  () {
       />
       <Button label="Click Me" click={clickMe} className="btn-class" />
       <h1>My Data Table</h1>
-      <Table cols={columns} datasource={data} />
+      <Table cols={columns} datasource={data}  />
     </div>
   );
 };
